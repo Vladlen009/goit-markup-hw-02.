@@ -1,0 +1,12 @@
+body {
+  font-family: Raleway, Roboto ;  
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
