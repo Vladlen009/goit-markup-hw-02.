@@ -20,6 +20,11 @@ body {
 
 /* ---------------------------HEADER-----------------------------*/
 
+.heder{
+  background-color: 
+  #FFFFFF;
+}
+
 .header-logo-color-web{
   font-family: Raleway;
 font-style: normal;
@@ -125,6 +130,10 @@ color: #FFFFFF;
 
 /*-------------------------HERO-----------------------------------*/
 
+.hero{
+background-color: #E5E5E5;
+}
+
 .hero-after-title{
   font-family: Roboto;
 font-style: normal;
@@ -151,6 +160,10 @@ color: var(--hero-headline);
 
 /*---------------------ABOUT-------------------------*/
 
+.about{
+  background-color: #E5E5E5;;
+}
+
 
 .about-title{
   font-family: Roboto;
@@ -162,6 +175,13 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #212121;
+}
+
+/*----------------------CONTENT----------------------*/
+
+.content{
+  background-color: 
+  #F5F4FA;
 }
 
 .content title{
@@ -243,8 +263,8 @@ color: #FFFFFF;
 
 /*--------------------navigation------------------*/
 
-.navigation-btn,
-.navigation-btn1{
+
+.navigation-btn,{
   font-family: Roboto;
 font-style: normal;
 font-weight: 500;
