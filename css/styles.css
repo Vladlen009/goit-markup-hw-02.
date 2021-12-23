@@ -259,8 +259,11 @@ color: #FFFFFF;
 
 /*--------------------navigation------------------*/
 
+.navigation{
+  background-color: #E5E5E5;;
+}
 
-.navigation-btn {
+.navigation-btn{
   font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -273,13 +276,17 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 
-.navigation-btn: hover
+.navigation-btn: hover,
 .navigation-btn: focus{
- color: #2196F3;
+  background-color: #2196F3
 }
 
 
  /*----------------PORTFOLIO---------------*/
+
+ .portfolio{
+   background-color: #E5E5E5;;
+ }
 
  .portfolio-after-title{
   font-family: Roboto;
