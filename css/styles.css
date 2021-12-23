@@ -2,7 +2,6 @@
   --header-color: #212121;
   --hero-after-title: #212121;
   --hero-headline: #757575;
-  --btn:  #212121;
   
 }
 
@@ -258,23 +257,56 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 
-/*--------------------PORTFOLIO-----------------------*/
-
-
 /*--------------------navigation------------------*/
 
 
-.navigation-btn,{
+.navigation-btn {
   font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.6
 /* identical to box height, or 162% */
 
 letter-spacing: 0.03em;
 
-color: var(--btn)
-
+color: #212121;
 }
- 
+
+.navigation-btn: hover
+.navigation-btn: focus{
+ color: #2196F3;
+}
+
+
+ /*----------------PORTFOLIO---------------*/
+
+ .portfolio-after-title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2
+  /* identical to box height, or 200% */
+  
+  letter-spacing: 0.06em;
+  
+  color: #212121;
+  
+ }
+
+ .portfolio-headline{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87
+  /* identical to box height, or 187% */
+  
+  letter-spacing: 0.03em;
+  
+  color: #757575;
+  
+ }
+
+
