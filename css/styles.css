@@ -11,6 +11,12 @@
   --section-background: #E5E5E5;
   --section-title: #212121;
   --section-text: #757575;
+  /*content*/
+  --content-background: #F5F4FA;
+  --content-title: #212121;
+  --content-headline: #757575;
+  /*footer*/
+  --footer-color-logo: #FFFFFF;
 
 
 
@@ -49,6 +55,8 @@ color: var(--header-hover-focus);
   color: var(--header-main);
 }
 
+
+
 .header-item{
 font-weight: 500;
 font-size: 14px;
@@ -59,7 +67,7 @@ color: var(--header-second);
 }
 
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,{
 
   color: var(--header-hover-focus) ;
 }
@@ -129,7 +137,7 @@ color: var(--hero-title);
   background-color: var(--section-background);
 }
 
-.section-title{
+.section-pretitle{
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -150,9 +158,136 @@ letter-spacing: 0.03em;
 color: var(--section-text);
 }
 
+.section-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
 
+color: var(--section-title)
+}
 
+/*------------------------Content---------------*/
 
+.content{
+  background-color: var(--content-background);
+}
+
+.content-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--content-title);
+}
+
+.content-after-title{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--content-title);
+}
+
+.content-headline{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--content-headline);
+}
+
+/*------------Footer--------------*/
+
+.footer{
+  background-color: var(--hero-background);
+}
+
+.logo-white{
+  color:var(--footer-color-logo)
+}
+
+.link-footer-address{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: var(--footer-color-logo);
+
+}
+
+.link-footer-tel,
+.link-footer-link{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
+}
+
+/*--------------------Navigation----------------*/
+
+.navigation{
+  background-color: var(--section-background);
+}
+
+.navigation-btn{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--section-title);
+}
+
+.navigation-btn:hover,
+.navigation-btn:focus{
+  background-color: var(--header-hover-focus);
+  color: var(--footer-color-logo);
+}
+.navigation-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: var(--section-title);
+}
+.navigation-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+/* identical to box height, or 187% */
+
+letter-spacing: 0.03em;
+
+color: var(--header-main2);
+}
 
 
 
