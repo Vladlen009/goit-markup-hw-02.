@@ -26,258 +26,224 @@ body {
 
 /* ---------------------------HEADER-----------------------------*/
 
-.header{
+.header {
   background-color: var(--header-background);
 }
 
-.logo{
-font-family: Raleway;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(--color-hover);
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-hover);
 }
 
-.logo-dark{
+.logo-dark {
   color: var(--main-color);
 }
 
 
 
-.header-item{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-
-color: var(--main-color);
+.header-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 
 .header-link:hover,
-.header-link:focus{
-
-  color: var(--color-hover) ;
+.header-link:focus {
+  color: var(--color-hover);
 }
 
 .header-mail,
 .header-tel {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-
-color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 .header-mail:hover,
-.header-mail:focus{
+.header-mail:focus {
   color: var(--color-hover);
 }
 
 .header-tel:hover,
-.header-tel:focus{
+.header-tel:focus {
   color: var(--color-hover);
 }
 
 /*------------------Hero-----------------*/
 
-.hero{
+.hero {
   background-color: var(--background-hero);
 }
 
-.hero-title{
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-/* or 136% */
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: var(--color-title);
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-title);
 }
 
-.hero-btn{
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
-/* identical to box height, or 187% */
-
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-
-color: var(--color-title);
-}
-
-.hero-btn{
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-title);
   background-color: var(--color-hover);
+
+  cursor: pointer;
 }
+
 .hero-btn:hover,
-.hero-btn:focus{
+.hero-btn:focus {
   background-color: var(--color-hover);
 }
 
 /*---------------------section----------------*/
 
-.section{
+.section {
   background-color: var(--section-background);
 }
 
-.section-pretitle{
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-color: var(--main-color);
+.section-pretitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
 }
 
-.section-text{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: var(--section-text);
+.section-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 
-.section-title{
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: var(--main-color)
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
 }
 
 /*------------------------Content---------------*/
 
-.content{
+.content {
   background-color: var(--background-content);
 }
 
-.content-title{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: var(--content-title);
+.content-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--content-title);
 }
 
-.content-after-title{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: 0.03em;
-
-color: var(--main-color);
+.content-after-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
 }
 
-.content-headline{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.19;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: 0.03em;
-
-color: var(--text-color);
+.content-headline {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 
 /*------------Footer--------------*/
 
-.footer{
+.footer {
   background-color: var(--background-hero);
 }
 
-.logo-white{
-  color:var(--footer-color-logo)
+.logo-white {
+  color:var(--footer-color-logo);
 }
 
-.footer-address{
+.footer-address {
   font-family: Roboto;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: var(--color-title);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-title);
 
 }
 
 .footer-tel,
-.footer-link{
-font-weight: 400;
-font-style: normal;
-font-size: 14px;
-line-height: 1.71;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: rgba(255, 255, 255, 0.6);
-
+.footer-link {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /*--------------------Navigation----------------*/
 
-.navigation{
+.navigation {
   background-color: var(--background-section);
 }
 
-.navigation-btn{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-/* identical to box height, or 162% */
+.navigation-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em; 
+  color: var(--main-color);
 
-text-align: center;
-letter-spacing: 0.03em;
-
-color: var(--main-color);
+  cursor: pointer;
 }
 
 .navigation-btn:hover,
-.navigation-btn:focus{
+.navigation-btn:focus {
   background-color: var(--color-hover);
   color: var(--footer-color-logo);
 }
 
-.navigation-title{
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-/* identical to box height, or 200% */
-
-letter-spacing: 0.06em;
-
-color: var(--main-color);
+.navigation-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.00; 
+  letter-spacing: 0.06em;
+  color: var(--main-color);
 }
 
-.navigation-text{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-/* identical to box height, or 187% */
-
-letter-spacing: 0.03em;
-
-color: var(--text-color);
+.navigation-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 
 
